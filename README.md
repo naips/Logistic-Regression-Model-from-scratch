@@ -1,7 +1,7 @@
 # Logistic-Regression-Model-from-scratch
 Logistic Regression model is developed from scratch. During model training:
 
-**Scenario 1:** Gradient is calculated as:
+**Scenario 1:** Gradient is calculated as: <br>
 np.dot(X.T, (sigmoid(X.W) - y)) / N
 
 **Scenario 2:** Gradient is calculated by Central Difference Formula
